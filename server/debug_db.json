@@ -1,0 +1,82 @@
+{
+  "users": [
+    {
+      "id": 9,
+      "name": "Super Admin",
+      "email": "admin@foodbridge.com",
+      "role": "admin",
+      "verified_badge": false
+    },
+    {
+      "id": 8,
+      "name": "DonorX",
+      "email": "donorx@test.com",
+      "role": "donor",
+      "verified_badge": false
+    },
+    {
+      "id": 7,
+      "name": "Donor3",
+      "email": "donor3@test.com",
+      "role": "donor",
+      "verified_badge": false
+    },
+    {
+      "id": 6,
+      "name": "Test Donor",
+      "email": "testdonor2@gmail.com",
+      "role": "donor",
+      "verified_badge": false
+    },
+    {
+      "id": 5,
+      "name": "Test Donor",
+      "email": "testdoner@gmail.com",
+      "role": "donor",
+      "verified_badge": false
+    }
+  ],
+  "donations": [
+    {
+      "id": 11,
+      "donor_id": 8,
+      "title": "Biryani ",
+      "status": "pending_verification",
+      "meal_plates": 10
+    },
+    {
+      "id": 10,
+      "donor_id": 8,
+      "title": "Biryani Lunch",
+      "status": "available",
+      "meal_plates": 50
+    },
+    {
+      "id": 9,
+      "donor_id": 8,
+      "title": "Biryani Lunch",
+      "status": "available",
+      "meal_plates": 50
+    }
+  ],
+  "verification_calls": [
+    {
+      "id": 3,
+      "donor_id": 8,
+      "donation_id": 11,
+      "status": "pending"
+    },
+    {
+      "id": 2,
+      "donor_id": 8,
+      "donation_id": 10,
+      "status": "completed"
+    },
+    {
+      "id": 1,
+      "donor_id": 8,
+      "donation_id": 9,
+      "status": "completed"
+    }
+  ]
+}
